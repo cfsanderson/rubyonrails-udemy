@@ -201,3 +201,16 @@ Use select method to display items only if value of the item is odd
 
 myhash.select { |k, v| v.odd? }
 
+### Lecture 30 - Ruby Style Guide
+Link for style guide:
+
+[bbatsov/ruby-style-guide](github.com/bbatsov/ruby-style-guide)
+
+class names: `CamelCase`
+
+file names: `snake_case`
+
+`this_is_snake_case.rb`
+
+Create and assign a variable with a long name like this: `my_new_variable = "Create long named variables like this"`
+
