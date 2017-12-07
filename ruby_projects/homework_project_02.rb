@@ -1,10 +1,10 @@
 # - [X] 1. Create a dictionary (hash) with 10 city names, where the city name would be a string and the key, and the area code would be the value.
 # - [x] 2. Get input for the city name from the user (hint: use gets.chomp method)
 # - [x] 3. Display the city names to the user which are available in the dictionary
-# - [ ] 4. Display area code based on user's city choice
-# - [ ] 5. Loop - keep the program running and prompt the user for new city names to lookup.
-# - [ ] 6. Method to look up area code, this will take in a hash of the dictionary and the city name and will output area code
-# - [ ] 7. Method to display just city names
+# - [x] 4. Display area code based on user's city choice
+# - [x] 5. Loop - keep the program running and prompt the user for new city names to lookup.
+# - [x] 6. Method to look up area code, this will take in a hash of the dictionary and the city name and will output area code
+# - [x] 7. Method to display just city names
 
 dial_book = {
   "bradenton" => "941",
@@ -27,8 +27,8 @@ class String
 end
 
 # method to display city names
-def display_cities(dial_book)
-  dial_book.each { |k, v| puts k.titleize }  
+def display_cities(potato)
+  potato.each { |k, v| puts k.titleize }  
 end
 
 # method to get area code, dial_book, and the city name.

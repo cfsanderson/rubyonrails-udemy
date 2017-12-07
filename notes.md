@@ -214,3 +214,6 @@ file names: `snake_case`
 
 Create and assign a variable with a long name like this: `my_new_variable = "Create long named variables like this"`
 
+### from `tryruby.org`
+`books.values.each { |rate| ratings[rate] += 1 }` = counts how many ratings of each value type were given in the books hash. MB
+
